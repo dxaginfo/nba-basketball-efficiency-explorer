@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-card p-4 hover:shadow-hover transition-shadow duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-nba-blue text-white py-2 px-4 rounded-lg hover:bg-opacity-90 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-nba-silver text-white py-2 px-4 rounded-lg hover:bg-opacity-90 transition-colors duration-200;
+  }
+  
+  .stat-value {
+    @apply text-2xl font-bold;
+  }
+  
+  .stat-label {
+    @apply text-sm text-gray-500;
+  }
+}

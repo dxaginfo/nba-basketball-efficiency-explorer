@@ -1,0 +1,311 @@
+{
+  "players": [
+    {
+      "id": "p1",
+      "name": "LeBron James",
+      "team": "Los Angeles Lakers",
+      "position": "F",
+      "jerseyNumber": "6",
+      "height": "6'9\"",
+      "weight": "250 lbs",
+      "age": 38,
+      "experience": 20,
+      "college": ""
+    },
+    {
+      "id": "p2",
+      "name": "Stephen Curry",
+      "team": "Golden State Warriors",
+      "position": "G",
+      "jerseyNumber": "30",
+      "height": "6'2\"",
+      "weight": "185 lbs",
+      "age": 35,
+      "experience": 14,
+      "college": "Davidson"
+    },
+    {
+      "id": "p3",
+      "name": "Giannis Antetokounmpo",
+      "team": "Milwaukee Bucks",
+      "position": "F",
+      "jerseyNumber": "34",
+      "height": "6'11\"",
+      "weight": "242 lbs",
+      "age": 28,
+      "experience": 10,
+      "college": ""
+    },
+    {
+      "id": "p4",
+      "name": "Nikola Jokić",
+      "team": "Denver Nuggets",
+      "position": "C",
+      "jerseyNumber": "15",
+      "height": "6'11\"",
+      "weight": "284 lbs",
+      "age": 28,
+      "experience": 8,
+      "college": ""
+    },
+    {
+      "id": "p5",
+      "name": "Joel Embiid",
+      "team": "Philadelphia 76ers",
+      "position": "C",
+      "jerseyNumber": "21",
+      "height": "7'0\"",
+      "weight": "280 lbs",
+      "age": 29,
+      "experience": 7,
+      "college": "Kansas"
+    },
+    {
+      "id": "p6",
+      "name": "Kevin Durant",
+      "team": "Phoenix Suns",
+      "position": "F",
+      "jerseyNumber": "35",
+      "height": "6'10\"",
+      "weight": "240 lbs",
+      "age": 34,
+      "experience": 15,
+      "college": "Texas"
+    },
+    {
+      "id": "p7",
+      "name": "Luka Dončić",
+      "team": "Dallas Mavericks",
+      "position": "G-F",
+      "jerseyNumber": "77",
+      "height": "6'7\"",
+      "weight": "230 lbs",
+      "age": 24,
+      "experience": 5,
+      "college": ""
+    },
+    {
+      "id": "p8",
+      "name": "Jayson Tatum",
+      "team": "Boston Celtics",
+      "position": "F",
+      "jerseyNumber": "0",
+      "height": "6'8\"",
+      "weight": "210 lbs",
+      "age": 25,
+      "experience": 6,
+      "college": "Duke"
+    },
+    {
+      "id": "p9",
+      "name": "Damian Lillard",
+      "team": "Milwaukee Bucks",
+      "position": "G",
+      "jerseyNumber": "0",
+      "height": "6'2\"",
+      "weight": "195 lbs",
+      "age": 33,
+      "experience": 11,
+      "college": "Weber State"
+    },
+    {
+      "id": "p10",
+      "name": "Anthony Davis",
+      "team": "Los Angeles Lakers",
+      "position": "F-C",
+      "jerseyNumber": "3",
+      "height": "6'10\"",
+      "weight": "253 lbs",
+      "age": 30,
+      "experience": 11,
+      "college": "Kentucky"
+    }
+  ],
+  "teams": [
+    {
+      "id": "t1",
+      "name": "Lakers",
+      "abbreviation": "LAL",
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Los Angeles",
+      "primaryColor": "#552583",
+      "secondaryColor": "#FDB927"
+    },
+    {
+      "id": "t2",
+      "name": "Warriors",
+      "abbreviation": "GSW",
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Golden State",
+      "primaryColor": "#1D428A",
+      "secondaryColor": "#FFC72C"
+    },
+    {
+      "id": "t3",
+      "name": "Bucks",
+      "abbreviation": "MIL",
+      "conference": "East",
+      "division": "Central",
+      "city": "Milwaukee",
+      "primaryColor": "#00471B",
+      "secondaryColor": "#EEE1C6"
+    },
+    {
+      "id": "t4",
+      "name": "Nuggets",
+      "abbreviation": "DEN",
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Denver",
+      "primaryColor": "#0E2240",
+      "secondaryColor": "#FEC524"
+    },
+    {
+      "id": "t5",
+      "name": "76ers",
+      "abbreviation": "PHI",
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Philadelphia",
+      "primaryColor": "#006BB6",
+      "secondaryColor": "#ED174C"
+    },
+    {
+      "id": "t6",
+      "name": "Suns",
+      "abbreviation": "PHX",
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Phoenix",
+      "primaryColor": "#1D1160",
+      "secondaryColor": "#E56020"
+    },
+    {
+      "id": "t7",
+      "name": "Mavericks",
+      "abbreviation": "DAL",
+      "conference": "West",
+      "division": "Southwest",
+      "city": "Dallas",
+      "primaryColor": "#00538C",
+      "secondaryColor": "#B8C4CA"
+    },
+    {
+      "id": "t8",
+      "name": "Celtics",
+      "abbreviation": "BOS",
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Boston",
+      "primaryColor": "#007A33",
+      "secondaryColor": "#BA9653"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "m1",
+      "name": "PER",
+      "fullName": "Player Efficiency Rating",
+      "description": "A measure of per-minute production standardized such that the league average is 15.",
+      "category": "overall",
+      "formula": "Complex formula taking into account all positive stats (points, rebounds, etc.) minus negative stats (turnovers, missed shots, etc.)",
+      "interpretation": "A PER of 20+ is considered excellent, while 15 is league average.",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m2",
+      "name": "TS%",
+      "fullName": "True Shooting Percentage",
+      "description": "A measure of shooting efficiency that takes into account field goals, 3-point field goals, and free throws.",
+      "category": "offensive",
+      "formula": "Points / (2 * (FGA + 0.44 * FTA))",
+      "interpretation": "League average is typically around 55-57%. Elite shooters may have 60%+ TS%.",
+      "unit": "%",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m3",
+      "name": "USG%",
+      "fullName": "Usage Rate",
+      "description": "An estimate of the percentage of team plays used by a player while they're on the floor.",
+      "category": "offensive",
+      "formula": "100 * ((FGA + 0.44 * FTA + TOV) * (Team Minutes / 5)) / (Minutes Played * (Team FGA + 0.44 * Team FTA + Team TOV))",
+      "interpretation": "League average is around 20%. Star players typically have usage rates of 25-35%.",
+      "unit": "%",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m4",
+      "name": "ORTG",
+      "fullName": "Offensive Rating",
+      "description": "Points produced per 100 possessions.",
+      "category": "offensive",
+      "interpretation": "League average varies by season, but is typically around 110-115 points per 100 possessions.",
+      "unit": "pts/100 poss",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m5",
+      "name": "DRTG",
+      "fullName": "Defensive Rating",
+      "description": "Points allowed per 100 possessions.",
+      "category": "defensive",
+      "interpretation": "Lower values indicate better defense. League average varies by season.",
+      "unit": "pts/100 poss",
+      "isHigherBetter": false
+    },
+    {
+      "id": "m6",
+      "name": "WS",
+      "fullName": "Win Shares",
+      "description": "An estimate of the number of wins contributed by a player.",
+      "category": "overall",
+      "formula": "Sum of Offensive Win Shares and Defensive Win Shares",
+      "interpretation": "A single win share is worth roughly one team win. MVP candidates typically have 10+ win shares in a season.",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m7",
+      "name": "BPM",
+      "fullName": "Box Plus/Minus",
+      "description": "A box score estimate of the points per 100 possessions a player contributed above a league-average player, translated to an average team.",
+      "category": "overall",
+      "interpretation": "0.0 is league average. +5 is All-Star level, +8 is MVP level, +10 is all-time great season.",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m8",
+      "name": "VORP",
+      "fullName": "Value Over Replacement Player",
+      "description": "A box score estimate of the points per 100 team possessions that a player contributed above a replacement-level player.",
+      "category": "overall",
+      "formula": "[BPM - (-2.0)] * (% of minutes played) * (team games/82)",
+      "interpretation": "Replacement level is set at -2.0 BPM. Average VORP is 0.0.",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m9",
+      "name": "eFG%",
+      "fullName": "Effective Field Goal Percentage",
+      "description": "A statistic that adjusts field goal percentage to account for the fact that three-point field goals count for more points than two-point field goals.",
+      "category": "offensive",
+      "formula": "(FG + 0.5 * 3P) / FGA",
+      "interpretation": "League average is typically around 50-52%. Elite shooters may have 55%+ eFG%.",
+      "unit": "%",
+      "isHigherBetter": true
+    },
+    {
+      "id": "m10",
+      "name": "AST%",
+      "fullName": "Assist Percentage",
+      "description": "An estimate of the percentage of teammate field goals a player assisted while on the floor.",
+      "category": "offensive",
+      "formula": "100 * AST / (((MP / (Team MP / 5)) * Team FG) - FG)",
+      "interpretation": "League average for point guards is around 25-30%. Elite playmakers might have AST% over 40%.",
+      "unit": "%",
+      "isHigherBetter": true
+    }
+  ]
+}
